@@ -505,12 +505,12 @@ btn.onclick = function() {
   modal.style.display = "block";
 
   var dataURL = stage.toDataURL({ pixelRatio: 3 });
-  var w = window.open('about:blank');
-  let image = new Image();
-  image.src = dataURL;
-  setTimeout(function(){
-    w.document.write(image.outerHTML);
-  }, 0);
+  //var w = window.open('about:blank');
+  //let image = new Image();
+  //.src = dataURL;
+  //setTimeout(function(){
+  //  w.document.write(image.outerHTML);
+ // }, 0);
   downloadURI(dataURL, 'memegenerator.png');
 }
 
