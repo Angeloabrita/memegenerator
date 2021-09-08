@@ -511,7 +511,7 @@ btn.onclick = function() {
   setTimeout(function(){
     w.document.write(image.outerHTML);
   }, 0);
-  //downloadURI(dataURL, 'memegenerator.png');
+  downloadURI(dataURL, 'memegenerator.png');
 }
 
 // When the user clicks on <span> (x), close the modal

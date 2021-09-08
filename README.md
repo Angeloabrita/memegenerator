@@ -5,7 +5,7 @@ Um simples gerador de MEMES .
 
 ## Demo
 
-você pode usar o demo acessando o link [link](https://pip.pypa.io/en/stable/).
+você pode usar o demo acessando o link [link](https://angeloabrita.github.io/memegenerator/).
 
 ```git
 git clone install foobar
@@ -27,7 +27,7 @@ A simple MEME generator.
 
 ## Demo
 
-you can use the demo by going to the [link](https://pip.pypa.io/en/stable/) link.
+you can use the demo by going to the [link](https://angeloabrita.github.io/memegenerator/) link.
 
 ```git
 git clone install foobar
