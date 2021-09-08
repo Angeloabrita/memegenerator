@@ -1,0 +1,360 @@
+*{
+  font-family: "Lucida Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+  color: #fefefe;
+}
+a:hover {
+  border-bottom: 1px solid;
+  background: #adadad;
+}
+
+
+.row {
+  border: 3px solid rgb(143, 0, 0);
+  margin: 10px;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 15px;
+  
+  }
+
+  .col{
+   width:50%;
+   float: left;
+   border-radius: 5px;
+   box-sizing: border-box;
+   justify-content: center;
+   align-items: center;
+   margin: 5px;
+  }
+
+  .con{
+    
+    margin: 10px;
+    border-radius: 15px;
+    padding: 1%;
+    background-color:  #adadad;
+    
+  }
+ 
+
+
+ .header{
+  overflow: hidden;
+  background-color:#adadad;
+  padding: 20px 10px;
+  margin: 5px;
+  border: black 3px solid;
+  border-radius: 15px;
+ 
+
+ }
+
+ .header h1{
+   font-size: 20px;
+   float: left;
+   padding: 1em;
+   text-align: center;
+   color: rgb(37, 37, 37);
+
+
+ }
+ .header p {
+  padding: 1.5em;
+   float: right;
+   text-align: center;
+   color: rgb(87, 86, 85);
+ }
+
+ 
+.header img{
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+  float: left;
+
+}
+
+footer{
+  overflow: hidden;
+  background-color: #bebebe;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: black 3px solid;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  float: left;
+  width: 25%; 
+  float:left; 
+  padding: 10px; 
+  margin: 10px;
+ 
+ 
+  text-align: center;
+  border-radius: 5px;
+  background-color: seashell;
+  height: 100px;
+}
+
+.ico{
+  display: inline-block;
+  border-radius: 60px;
+  background-color:#BFBFBF;
+  box-shadow: 0px 0px 2px rgb(146, 146, 146);
+  padding: 0.5em 0.6em;
+  margin: 3px;
+}
+  
+.content{
+  padding: 10px;
+  width: 90%;
+ 
+}
+#stage-parent{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+ 
+}
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  text-align: center;
+  background-color: #e2e2e2;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid rgb(179, 0, 0);
+  border-radius: 15px;
+  width: 80%;
+  overflow: hidden;
+  
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input[type=text]{
+  width: 100%;
+  height: 70px;
+  margin:10px 0;
+  border-radius: 5px;
+  
+}
+
+/* formatation for input and buttons */
+input[type="file"] {
+  display: none;
+}
+
+.lab{
+  background-color:#dfdfdf; 
+  border: none;
+  color: #404040;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  border-radius:  5px;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button {
+  background-color:#dfdfdf; 
+  border: none;
+  color: #404040;
+  padding: 8px 8px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  border-radius:  5px;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* for radio style opacide */
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #b62a00;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #690000;
+  cursor: pointer;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .row{
+    /* width: 95%;
+    box-sizing: content-box;
+    display: block;
+    margin: 0; */
+
+  width: 100%;
+  border: none;
+  margin: 0;
+  box-sizing: border-box;
+  display:block;
+  border-radius: 15px;
+  
+  }
+
+  
+
+  .col {
+    width:100%;
+   float: none;
+   border-radius: 5px;
+   box-sizing: border-box;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+  }
+
+  .header{
+    width: 98.7%;
+    margin: 10px;
+    float: none;
+
+    overflow: hidden;
+   
+    padding: 0px 0px;
+    margin: 0px;
+    border: black 3px solid;
+    border-radius: 15px;
+   
+   
+  }
+  .header img{
+    width: 100%;
+    padding-top: 20px;
+    max-width: 60px;
+    
+   float: none;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  
+  }
+
+  .header h1{
+    float: none;
+  }
+
+  .flex{
+    
+    width: 100%;
+  }
+
+  
+
+  footer{
+    
+    width: 97%;
+    overflow: hidden;
+    margin: 0;
+    padding: 3px;
+  
+  }
+
+  
+
+  .content{
+    float: none;
+    width: 97%; 
+    overflow: hidden;
+    
+    
+    
+   
+    text-align: center;
+    border-radius: 5px;
+    
+    height: 100px;
+  }
+
+  
+}
+  

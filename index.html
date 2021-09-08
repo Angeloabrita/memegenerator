@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#73590A">
+    <meta name=”description” content="Meme Cringe é um gerador de meme simples, leve e portátil no qual você pode criar memes através de qualquer dispositivo" />
+    
+    <!-- meta for social net -->
+    <meta property="og:title" content="Meme Cringe">
+    <meta property="og:description" content="Meme Cringe é  um gerador de meme simples, leve e portátil no qual você pode criar memes através de qualquer dispositivo">
+    <meta property="og:image" content="./assets/fastoup.png">
+    <meta property="og:url" content="index.htm">
+    <meta name="twitter:card" content="summary_large_image">
+   
+    <!-- font-awesome linkrel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+
+
+
+    " crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/logoico.png" type="image/x-icon">
+
+    
+    <title> Meme Cringe</title>
+</head>
+
+<body>
+    <!-- the header -->
+    <header class="header">   
+            <img  src="assets/logoico.png" alt="logo agta studios">
+            <h1>Meme Cringe</h1>
+            <p>Crie memes incriveis com esse gerador de meme simples e prático</p>  
+    </header>
+<!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+
+          
+                <span class="close">&times;</span>   
+                <p>E ai gostou! Ajude-me a criar novas soluções gratuitamente.</p>
+                <p>Curta e compartilhe e se possivel faça uma doação! Isso me ajuda muito! Obrigado.</p>
+            
+            <div  class=" flex">      
+                <div class="content"><p>Link para redes sociais</p>
+                    <a class="ico" href="https://facebook.com/agtastudios"><i class="fab fa-facebook"></i></a>
+                    <a class="ico" href="https://twitter.com/agtastudios"><i class="fab fa-twitter"></i></a>
+                    <a class="ico" href="https://github.com/Angeloabrita"><i class="fab fa-github"></i></a>
+                
+                </div>
+                <div class="content">
+                    <p>link para doar PIX ou PayPal</p>
+                    <a class="ico" href="#">PIX</a>
+                    <a class="ico" href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NTVK3A8XG54W2&source=url"><i class="fab fa-paypal"></i></a>
+                    <p>faça uma doação</p> 
+                </div> 
+               
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <!-- cointainer responsive for canvas -->
+        <div class="col" style="background-color:#444444;">
+            <div id="stage-parent">
+               <div id="container"></div>
+           </div>
+       </div>
+       <!-- menu content -->
+       <div class="col" style="background-color:#808080;">
+            <div class="row" >
+                <div class="col" >
+                     <div class="con" >
+                        <label class="lab" for="loadimg">Inserir imagem de fundo</label><br>
+                        <input type="file" name="loadimg"  id="loadimg" accept=".jpg, .jpeg, .png">
+                        <label for="loadimgbg">Usar fundo branco</label>
+                        <input type="checkbox" name="loadimgbg" id="loadimgbg" onclick="actveBg()" checked="true">
+                        <br><br>
+                        <label class="lab" for="loadimg2">Inserir imagem </label><br>
+                        <input type="file" name="loadimg2" id="loadimg2" accept=".jpg, .jpeg, .png"><br>
+                        <div class="slidecontainer">
+                          <label for="vol">Opacidade</label>
+                          <input type="range" id="vol" name="vol" min="0%" max="100%" class="slider" >
+                       </div>
+                        <br><br>
+                        <button  id="save" >baixar meme</button> 
+                    </div>
+                </div>
+                
+                
+                <div class="col" >
+                    <div class="con">
+                    <label for="text1">Adicionar texto</label><br>
+                    <input type="text" name="text1" value="VOU CRIAR UM MEME MANEIRO." id="tx">
+                    <button id="newText" type="submit" onclick="newInputText()">Novo texto</button>
+                    <br><br>
+                </div>
+                </div>
+       
+            </div>  
+        </div>
+    </div>
+    
+    
+</body>
+<footer>
+    <h3>E ai gostou! </h3>
+    <p>Ajude-me a criar novas soluções gratuitamente.</p>
+    <p>Curta e compartilhe e se possivel faça uma doação! Isso me ajuda muito! Obrigado.</p>
+    
+    <div  class=" flex">      
+            <div class="content"><p>Link para redes sociais</p>
+                <a class="ico" href="https://facebook.com/agtastudios"><i class="fab fa-facebook"></i></a>
+                <a class="ico" href="https://twitter.com/agtastudios"><i class="fab fa-twitter"></i></a>
+                <a class="ico" href="https://github.com/Angeloabrita"><i class="fab fa-github"></i></a>
+            
+            </div>
+            
+            <div class="content">
+                <p>link para doar PIX ou PayPal</p>
+                <a class="ico" href="#">PIX</a>
+                <a class="ico" href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NTVK3A8XG54W2&source=url"><i class="fab fa-paypal"></i></a>
+                <p>faça uma doação</p> 
+            </div> 
+          
+    </div>
+   
+    <script src="konvajs.js"></script>
+    <script src="app.js"></script>
+</footer>
+</html>
