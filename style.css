@@ -36,9 +36,8 @@ a:hover {
 
   .con{
     
-    margin: 10px;
     border-radius: 15px;
-    padding: 1%;
+    
     background-color:  #adadad;
     
   }
@@ -69,7 +68,8 @@ a:hover {
   padding: 1.5em;
    float: right;
    text-align: center;
-   color: rgb(87, 86, 85);
+   font-weight: bold;
+   color: rgb(44, 44, 44);
  }
 
  
@@ -205,8 +205,11 @@ input[type="file"] {
   text-align: center;
   text-decoration: none;
   border-radius:  5px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 16px;
+  font-weight: bold;
   margin: 4px 2px;
   cursor: pointer;
 }

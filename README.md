@@ -1,19 +1,20 @@
 # MEME GENERATOR
 ### for english see bellow PT text
 
-Um simples gerador de MEMES .
+Um simples gerador de MEMES.
 
 ## Demo
 
-você pode usar o demo acessando o link [link](https://angeloabrita.github.io/memegenerator/).
+Você pode usar o demo acessando o link [link](https://angeloabrita.github.io/memegenerator/).
 
+## clone isso em seu repositorio 
 ```git
-git clone install foobar
+git clone install https://angeloabrita.github.io/memegenerator
 ```
 
 ## Contribuição
-Esse simples app desenvolvido para como estudo usando como base o [99app_ideias](). Um repositório com varias ideias de apps para você ir treinando suas habilidades. Esse gerador de meme usa [KONVAS]()
-um incrivel framework para canvas.
+Esse simples app desenvolvido para fins de estudo usando como inspiração o [99app_ideias]( https://github.com/Angeloabrita/app-ideas). Um repositório com várias ideias de apps para você ir treinando suas habilidades. Esse gerador de meme usa [KONVAS]( https://konvajs.org/api/Konva.Node.html)
+Uma incrível lib Canvas.
 
 
 ## License
@@ -21,20 +22,19 @@ um incrivel framework para canvas.
 
 # For english espeaker
 # MEME GENERATOR
-### for english see bellow PT text
-
 A simple MEME generator.
 
 ## Demo
 
 you can use the demo by going to the [link](https://angeloabrita.github.io/memegenerator/) link.
 
+## clone it in your repositorie
 ```git
-git clone install foobar
+git clone install https://angeloabrita.github.io/memegenerator.git
 ```
 
 ## Contribution
-This simple app developed for a study using as a basis [99app_ideias](). A repository with several app ideas for you to train your skills.
+This simple app developed for a study using the [99app_ideias](https://github.com/Angeloabrita/app-ideas). A repository with several app ideas for you to train your skills.
 
 
 
